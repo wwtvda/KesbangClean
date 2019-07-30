@@ -54,7 +54,8 @@ const FooterPage = () => {
         	<ul>
         	<h6 className="title">KONTAK</h6>
           	<li className="list-unstyled">
-            	<a href="/kontak">ALAMAT</a>
+            	<a href="/kontak">ALAMAT : Jalan Tentara Rakyat Mataram Nomor 53 (Selatan Universitas Janabadra), 
+Kota Yogyakarta</a>
           	</li>
           	<li className="list-unstyled">
             	TELP : 0274 551136/551137
