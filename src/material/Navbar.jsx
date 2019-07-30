@@ -18,7 +18,7 @@ render() {
           	<img alt="logo" height="100px" width="75px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Yogyakarta_Logo.svg/357px-Yogyakarta_Logo.svg.png"/>
       	</MDBCol>
         <MDBNavbarBrand>
-        <MDBCol md="3">
+        <MDBCol md="1">
           <h6>Pemerintah Daerah Istimewa Yogyakarta</h6>
           <h4 className="white-text">BADAN KESATUAN BANGSA DAN POLITIK</h4> 
           </MDBCol>
@@ -30,9 +30,9 @@ render() {
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBFormInline waves>
-                <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                </div>
+              <form className="form-inline mt-4 mb-4">
+                  <input className="form-control mr-sm-2" type="text" placeholder="Cari infomu disini..." aria-label="Search" />
+                </form>
               </MDBFormInline>
             </MDBNavItem>
           </MDBNavbarNav>

@@ -7,7 +7,7 @@ const FooterPage = () => {
 	<MDBFooter color="danger-color-dark" className="font-small pt-4 mt-4">
   	<MDBContainer fluid className="text-center text-md-left">
     	<MDBRow>
-    	<MDBCol md="0">
+    	<MDBCol md="1">
           	<img alt="logo" height="100px" width="75px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Yogyakarta_Logo.svg/357px-Yogyakarta_Logo.svg.png"/>
       	</MDBCol>
       	<MDBCol md="3">
