@@ -1,11 +1,11 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBMask, MDBIcon, MDBView } from "mdbreact";
-import c11 from './img/c11.webp';
-import a2 from './img/a2.webp'; 
-import a3 from './img/a3.webp';
-import p1 from './img/p1.webp';
-import p2 from './img/p2.webp';
-import p3 from './img/p3.webp';
+import c11 from './img/c11.jpg';
+import a2 from './img/a2.jpg'; 
+import a3 from './img/a3.jpg';
+import p1 from './img/p1.jpg';
+import p2 from './img/p2.jpg';
+import p3 from './img/p3.jpg';
 
 const FeaturesPage = () => {
 
