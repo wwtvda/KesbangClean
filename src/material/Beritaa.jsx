@@ -1,11 +1,11 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBMask, MDBIcon, MDBView } from "mdbreact";
-import c11 from './img/c11.jpg';
-import c22 from './img/c22.jpg';
-import c333 from './img/c333.jpg';
-import a1 from './img/a1.jpg'; 
-import a2 from './img/a2.jpg'; 
-import a3 from './img/a3.jpg';
+import c11 from './img/c11.webp';
+import a2 from './img/a2.webp'; 
+import a3 from './img/a3.webp';
+import p1 from './img/p1.webp';
+import p2 from './img/p2.webp';
+import p3 from './img/p3.webp';
 
 const FeaturesPage = () => {
 
@@ -50,115 +50,11 @@ const FeaturesPage = () => {
             </MDBCol>
 
             <MDBCol md="12" lg="6">
-              <div style={{
+
+            <div style={{
                 borderBottom: "1px solid #e0e0e0",
                 marginBottom: "1.5rem"
               }}>
-                <MDBRow>
-                  <MDBCol md="3">
-                    <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src={c22}
-                        alt=""
-                      />
-                      <a href="#!">
-                        <MDBMask overlay="white-slight" className="waves-light" />
-                      </a>
-                    </MDBView>
-                  </MDBCol>
-                  <MDBCol md="9">
-                    <p className="font-weight-bold dark-grey-text">
-                      01/07/2019
-                    </p>
-                    <div className="d-flex justify-content-between">
-                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                        <a href="#!" className="dark-grey-text">
-                        Rapat Kerja Forum Pembauran Kebangsaan Daerah Istimewa Yogyakarta
-                        </a>
-                      </MDBCol>
-                      <a href="#!">
-                        <MDBIcon icon="angle-double-right" />
-                      </a>
-                    </div>
-                  </MDBCol>
-                </MDBRow>
-              </div>
-
-              <div style={{
-                borderBottom: "1px solid #e0e0e0",
-                marginBottom: "1.5rem"
-              }}>
-                <MDBRow>
-                  <MDBCol md="3">
-                    <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src={c333}
-                        alt=""
-                      />
-                      <a href="#!">
-                        <MDBMask overlay="white-slight" className="waves-light" />
-                      </a>
-                    </MDBView>
-                  </MDBCol>
-                  <MDBCol md="9">
-                    <p className="font-weight-bold dark-grey-text">
-                      28/06/2019
-                    </p>
-                    <div className="d-flex justify-content-between">
-                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                        <a href="#!" className="dark-grey-text">
-                        Sosialisasi dan Rapat Koordinasi Pencegahan dan Penyalahgunaan Narkoba di Bengkulu
-                        </a>
-                      </MDBCol>
-                      <a href="#!">
-                        <MDBIcon icon="angle-double-right" />
-                      </a>
-                    </div>
-                  </MDBCol>
-                </MDBRow>
-              </div>
-
-              <div style={{
-                    borderBottom: "1px solid #e0e0e0",
-                    marginBottom: "1.5rem"
-                  }}>
-                <MDBRow>
-                  <MDBCol md="3">
-                    <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src={a1}
-                        alt=""
-                      />
-                      <a href="#!">
-                        <MDBMask overlay="white-slight" className="waves-light" />
-                      </a>
-                    </MDBView>
-                  </MDBCol>
-                  <MDBCol md="9">
-                    <p className="font-weight-bold dark-grey-text">
-                      27/06/2019
-                    </p>
-                    <div className="d-flex justify-content-between">
-                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                        <a href="#!" className="dark-grey-text">
-                        Pemantauan Tenaga Kerja Asing Oleh Pemda DIY
-                        </a>
-                      </MDBCol>
-                      <a href="#!">
-                        <MDBIcon icon="angle-double-right" />
-                      </a>
-                    </div>
-                  </MDBCol>
-                </MDBRow>
-              </div>
-
-              <div style={{
-                    borderBottom: "1px solid #e0e0e0",
-                    marginBottom: "1.5rem"
-                  }}>
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
@@ -179,7 +75,7 @@ const FeaturesPage = () => {
                     <div className="d-flex justify-content-between">
                       <MDBCol size="11" className="text-truncate pl-0 mb-3">
                         <a href="#!" className="dark-grey-text">
-                        Pemantauan Situasi Pasca Pemilu di Kabupaten Kulon Progo
+                          Pemantauan Situasi Pasca Pemilu di Kabupaten Kulon Progo
                         </a>
                       </MDBCol>
                       <a href="#!">
@@ -189,7 +85,14 @@ const FeaturesPage = () => {
                   </MDBCol>
                 </MDBRow>
               </div>
-              <div className="mb-4">
+
+
+
+
+            <div style={{
+                borderBottom: "1px solid #e0e0e0",
+                marginBottom: "1.5rem"
+              }}>
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
@@ -210,7 +113,7 @@ const FeaturesPage = () => {
                     <div className="d-flex justify-content-between">
                       <MDBCol size="11" className="text-truncate pl-0 mb-3">
                         <a href="#!" className="dark-grey-text">
-                        Pemantauan Pemilu Serentak Tahun 2019 di Kabupaten Gunungkidul
+                          Pemantauan Pemilu Serentak Tahun 2019 di Kabupaten Gunungkidul
                         </a>
                       </MDBCol>
                       <a href="#!">
@@ -220,6 +123,119 @@ const FeaturesPage = () => {
                   </MDBCol>
                 </MDBRow>
               </div>
+
+
+
+
+            <div style={{
+                borderBottom: "1px solid #e0e0e0",
+                marginBottom: "1.5rem"
+              }}>
+                <MDBRow>
+                  <MDBCol md="3">
+                    <MDBView hover rounded className="z-depth-1-half mb-4">
+                      <img
+                        className="img-fluid"
+                        src={p2}
+                        alt=""
+                      />
+                      <a href="#!">
+                        <MDBMask overlay="white-slight" className="waves-light" />
+                      </a>
+                    </MDBView>
+                  </MDBCol>
+                  <MDBCol md="9">
+                    <p className="font-weight-bold dark-grey-text">
+                      13/08/2018
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
+                        <a href="#!" className="dark-grey-text">
+                        Pengumuman Pemenang Lomba Kreasi Poster Anti Narkoba 2018
+                        </a>
+                      </MDBCol>
+                      <a href="#!">
+                        <MDBIcon icon="angle-double-right" />
+                      </a>
+                    </div>
+                  </MDBCol>
+                </MDBRow>
+              </div>
+
+
+                  
+
+
+
+              <div style={{
+                borderBottom: "1px solid #e0e0e0",
+                marginBottom: "1.5rem"
+              }}>
+                <MDBRow>
+                  <MDBCol md="3">
+                    <MDBView hover rounded className="z-depth-1-half mb-4">
+                      <img
+                        className="img-fluid"
+                        src={p3}
+                        alt=""
+                      />
+                      <a href="#!">
+                        <MDBMask overlay="white-slight" className="waves-light" />
+                      </a>
+                    </MDBView>
+                  </MDBCol>
+                  <MDBCol md="9">
+                    <p className="font-weight-bold dark-grey-text">
+                      11/08/2018
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
+                        <a href="#!" className="dark-grey-text">
+                        Pengumuman Pemenang Lomba Kreasi Poster Anti Narkoba 2018
+                        </a>
+                      </MDBCol>
+                      <a href="#!">
+                        <MDBIcon icon="angle-double-right" />
+                      </a>
+                    </div>
+                  </MDBCol>
+                </MDBRow>
+              </div>
+
+
+
+
+                <MDBRow>
+                  <MDBCol md="3">
+                    <MDBView hover rounded className="z-depth-1-half mb-4">
+                      <img
+                        className="img-fluid"
+                        src={p1}
+                        alt=""
+                      />
+                      <a href="#!">
+                        <MDBMask overlay="white-slight" className="waves-light" />
+                      </a>
+                    </MDBView>
+                  </MDBCol>
+                  <MDBCol md="9">
+                    <p className="font-weight-bold dark-grey-text">
+                      17/07/2018
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <MDBCol size="11" className="text-truncate pl-0 mb-3">
+                        <a href="#!" className="dark-grey-text">
+                        Lomba Kreasi Poster Anti Narkoba DIY 2018 untuk kalangan Pelajar SMA/SMK sederajat
+                        </a>
+                      </MDBCol>
+                      <a href="#!">
+                        <MDBIcon icon="angle-double-right" />
+                      </a>
+                    </div>
+                  </MDBCol>
+                </MDBRow>
+            
+
             </MDBCol>
           </MDBRow>
   );
